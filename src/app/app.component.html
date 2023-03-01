@@ -1,0 +1,30 @@
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2b6193;">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a  routerLink="employees" routerLinkActive="active" class="nav-link"><i>Employee List</i></a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="create-employee" routerLinkActive="active" class="nav-link"><i>Add Employee</i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<h1 class="text-center">{{title}} </h1>
+<div class= "container">
+  <router-outlet></router-outlet>
+</div>
+
+
+<div class="container my-5">
+  <section class="">
+  <footer class="text-center text-white" style="background-color: #0a4275;">
+    <div class="text-center p-3" style="background-color: rgba(40, 39, 39, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://www.adp.com/resources/">EmpManagement.com</a>
+    </div>
+  </footer>
+</section>
+</div>
